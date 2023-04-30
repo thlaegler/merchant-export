@@ -27,6 +27,7 @@ Open Jupyter notebook in [My Binder](https://mybinder.org/v2/gh/thlaegler/mercha
 
 * Place `products_export_1-2000.csv` file into `input` folder.
 * Customize `input/google_category_mapping.csv` if required.
+* Change `company` variable from "Example" to your company name.
 * Execute Jupyter notebook
 * Find converted file in `output/google_merchant.csv`
 
@@ -36,8 +37,9 @@ Open Jupyter notebook in [My Binder](https://mybinder.org/v2/gh/thlaegler/mercha
 * Review culculation of `availability` field (out of stock vs in stock)
 * Remove unused columns
 
-## Images links examples
-* Thumbnail: https://www.wyatt.co.nz/site/wyatt/images//thumb/021.1106_RUPES-Filter-for-KS260.jpg
-* Normal: https://www.wyatt.co.nz/site/wyatt/images/items/021.1106_RUPES-Filter-for-KS260.1.jpg
-* Medium/Large: https://www.wyatt.co.nz/site/wyatt/images//large/021.1106_RUPES-Filter-for-KS260.jpg
-* Large: https://www.wyatt.co.nz/ic/wyatt/3456745154/021.1106_RUPES-Filter-for-KS260.jpg
+## Images link examples
+
+* Thumbnail: https://www.example.co.nz/site/example/images//thumb/021.1106_RUPES-Filter-for-KS260.jpg
+* Normal: https://www.example.co.nz/site/example/images/items/021.1106_RUPES-Filter-for-KS260.1.jpg
+* Medium/Large: https://www.example.co.nz/site/example/images//large/021.1106_RUPES-Filter-for-KS260.jpg
+* Large: https://www.example.co.nz/ic/example/3456745154/021.1106_RUPES-Filter-for-KS260.jpg
