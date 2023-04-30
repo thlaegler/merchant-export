@@ -1,12 +1,12 @@
 .DS_Store
 
-data/
-output/
+#data/
+#output/
 .ipynb_checkpoints/
 
 google_category_mapping.csv
 products_export_1-2000.csv
 products_export_2001-4000.csv
 
-!data/.gitkeep
-!output/.gitkeep
+#!data/.gitkeep
+#!output/.gitkeep
