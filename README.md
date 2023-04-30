@@ -1,16 +1,27 @@
 # merchant-export
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thlaegler/merchant-export/HEAD?labpath=notebook.ipynb)
+
 Jupyter notbook and pyhton program to convert Zest product CSV export file into [Google merchant product specification CSV file](https://support.google.com/merchants/topic/6324338) and [Facebook product catalogue specification CSV file](https://www.facebook.com/business/help/120325381656392).
 
 ## Getting started / TL;DR
 
-Run Jupyter notebook locally; requires python and pip.
+### Execute Jupyter notebook locally
+
+Requires python and pip.
+
 ```
+$ git clone git@github.com:thlaegler/merchant-export.git
+$ cd merchant-export
 $ pip install --upgrade pip
 $ pip install --upgrade ipython jupyter jupyterlab notebook pandas
 $ jupyter notebook list
 $ jupyter notebook
 ```
+
+### Execute Jupyter notebook via MyBinder
+
+Open Jupyter notebook in [My Binder](https://mybinder.org/v2/gh/thlaegler/merchant-export/HEAD?labpath=notebook.ipynb).
 
 ## Usage
 
