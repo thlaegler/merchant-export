@@ -25,17 +25,19 @@ Open Jupyter notebook in [My Binder](https://mybinder.org/v2/gh/thlaegler/mercha
 
 ## Usage
 
-* Place `products_export_1-2000.csv` file into `input` folder.
-* Customize `input/google_category_mapping.csv` if required.
-* Change `company` variable from "Example" to your company name.
+* Copy `products_export_1-2000.csv` and `products_export_2001-4000.csv` file into [input](input) folder.
+* Copy `google_category_mapping.example.csv` in [input](input) folder to `google_category_mapping.csv` and customize the category mapping according to your needs.
+* Change `company` variable in Jupyter notebook from `Example` to your company name.
 * Execute Jupyter notebook
-* Find converted file in `output/google_merchant.csv`
+* Find converted files `products_google.csv` and `products_facebook.csv` in [output](output) folder.
 
 ## Known bugs and TODOs
 
-* Calculate `sale_price` based on promotion field `Promotion Discount`
-* Review culculation of `availability` field (out of stock vs in stock)
+* Review calculation of `availability` field (out of stock vs. in stock). There are products in stock but the other column says out of stock in the source files?
 * Remove unused columns
+* Source files have products with price of 0.00 NZD?
+* Promotion start date and end date is (almost) always the same?
+* Source files have no active promotion date and some invalid promotion dates (e.g. 2022/11/31)
 
 ## Images link examples
 
