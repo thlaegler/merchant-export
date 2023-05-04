@@ -31,13 +31,6 @@ Open Jupyter notebook in [My Binder](https://mybinder.org/v2/gh/thlaegler/mercha
 * Execute Jupyter notebook
 * Find converted files `products_google.csv` and `products_facebook.csv` in [output](output) folder.
 
-## Known bugs and TODOs
-
-* Review calculation of `availability` field (out of stock vs. in stock). There are products in stock but the other column says out of stock in the source files?
-* Remove unused columns
-* Source files have products with price of 0.00 NZD?
-* Promotion start date and end date is (almost) always the same?
-* Source files have no active promotion date and some invalid promotion dates (e.g. 2022/11/31)
 
 ## Images link examples
 
