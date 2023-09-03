@@ -7,6 +7,7 @@
 google_category_mapping.csv
 products_export_1-2000.csv
 products_export_2001-4000.csv
+product_variation_export.csv
 
 #!data/.gitkeep
 #!output/.gitkeep
